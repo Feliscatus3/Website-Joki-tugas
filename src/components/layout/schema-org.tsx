@@ -16,7 +16,7 @@ export default function SchemaOrg() {
     ].filter(Boolean),
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+6285157900849',
+      telephone: '+62',
       contactType: 'customer service',
     },
     description: siteConfig.description,

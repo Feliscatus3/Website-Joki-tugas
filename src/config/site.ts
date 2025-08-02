@@ -47,9 +47,9 @@ export const siteConfig = {
   links: {
     facebook: '#',
     discord: '#',
-    instagram: 'https://www.instagram.com/side__id/',
-    github: 'https://github.com/sideeID',
-    whatsapp: 'https://wa.me/+6285157900849',
+    instagram: 'https://www.instagram.com/jokigofast/',
+    github: '#',
+    whatsapp: 'https://wa.me/+62',
     telegram: '#',
     shopee: '#',
   },
