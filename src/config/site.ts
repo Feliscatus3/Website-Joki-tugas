@@ -33,7 +33,7 @@ export const siteConfig = {
     title: 'JokiGoFast - Jasa Joki Tugas',
     description:
       'Jasa tugas yang berkualitas tinggi dengan harga terjangkau.',
-    creator: '@side__id',
+    creator: '@nizarfazari193',
     images: [`${SITE_URL}/og.jpg`],
   },
   verification: {
@@ -45,12 +45,7 @@ export const siteConfig = {
     },
   },
   links: {
-    facebook: '#',
-    discord: '#',
-    instagram: 'https://www.instagram.com/side__id/',
-    github: 'https://github.com/sideeID',
-    whatsapp: 'https://wa.me/+6285157900849',
-    telegram: '#',
-    shopee: '#',
+    instagram: 'https://www.instagram.com/jokigofast/',
+    whatsapp: 'https://wa.me/+62',
   },
 };
