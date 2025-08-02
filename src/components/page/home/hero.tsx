@@ -38,7 +38,7 @@ export const Hero = () => {
             animation='blurInDown'
             duration={0.3}
           >
-            Kami Bantu Selesaikan Tugas <br className='md:hidden' /> Kuliah
+            Kami Bantu Selesaikan Tugas Kuliah
             Kamu, <br />
             Mulai dari{' '}
             <span className='text-primary'>
