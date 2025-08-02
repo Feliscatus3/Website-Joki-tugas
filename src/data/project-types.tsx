@@ -19,13 +19,13 @@ export const projectTypeCards: ProjectTypeCard[] = [
   },
   {
     type: 'motivational-essay',
-    title: 'Esai Motivasi / Resume',
+    title: 'Esai / Resume',
     description: 'Penulisan esai motivasi atau rangkuman materi PKKMB',
     icon: <BookOpen className='w-10 h-10 text-primary' />,
   },
   {
     type: 'reflective-journal',
-    title: 'Jurnal Reflektif',
+    title: 'Jurnal',
     description: 'Penulisan jurnal refleksi harian atau laporan kegiatan',
     icon: <NotebookPen className='w-10 h-10 text-primary' />,
   },

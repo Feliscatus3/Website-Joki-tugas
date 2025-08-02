@@ -17,13 +17,13 @@ export const projectItems: ProjectItem[] = [
     icon: <FileText className='text-primary w-8 h-8' />,
   },
   {
-    title: 'Esai Motivasi',
+    title: 'Esai',
     description:
       'Esai dengan bahasa akademik, sesuai tema, dan mencerminkan semangat mengikuti kegiatan.',
     icon: <BookOpen className='text-primary w-8 h-8' />,
   },
   {
-    title: 'Jurnal Reflektif Harian',
+    title: 'Jurnal',
     description:
       'Tulisan refleksi berdasarkan kegiatan sehari-hari selama masa orientasi kampus.',
     icon: <NotebookPen className='text-primary w-8 h-8' />,
