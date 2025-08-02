@@ -19,7 +19,7 @@ export const Logo = ({
   priority = true,
   width = 100,
   height = 75,
-  alt = 'CodeJoki Logo',
+  alt = 'Joki Go Fast Logo',
   lightSrc = '/SideID-Labs-transparant-2.png',
   darkSrc = '/SideID-Labs-transparant.png',
   ...props
