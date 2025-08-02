@@ -24,18 +24,18 @@ export function StepDescription({
           htmlFor='description'
           className='block mb-2 text-sm sm:text-base'
         >
-          Jelaskan secara detail kebutuhan proyek Anda:
+          Jelaskan secara detail kebutuhan tugas Anda:
         </Label>
         <Textarea
           id='description'
-          placeholder='Contoh: Saya membutuhkan website portofolio yang responsif dengan 5 halaman (Home, About, Services, Portfolio, Contact). Website harus menggunakan React dan Tailwind CSS...'
+          placeholder='Contoh: Saya butuh jurnal reflektif harian untuk PKKMB 5 hari. Tulis dengan gaya santai tapi tetap sopan, sesuai pedoman kampus. Tiap hari 200 kata. Kirim dalam format Word dan PDF.'
           className='min-h-[120px] sm:min-h-[150px] text-sm sm:text-base'
           value={description}
           onChange={onChange}
         />
         <p className='mt-2 text-xs text-gray-500'>
-          Minimum 10 karakter. Semakin detail deskripsi Anda, semakin akurat
-          estimasi yang kami berikan.
+          Minimum 10 karakter. Semakin lengkap penjelasan Anda, semakin tepat
+          layanan yang kami berikan, baik itu Minimal Check Plagiasi dan lain sebaginya.
         </p>
       </div>
       <div className='flex flex-col sm:flex-row justify-between gap-3 sm:gap-0 mt-6 sm:mt-8'>
