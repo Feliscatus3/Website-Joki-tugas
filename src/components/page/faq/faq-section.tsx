@@ -65,7 +65,9 @@ export function FAQSection() {
               once
               delay={0.1}
             >
-              Temukan jawaban atas pertanyaan umum seputar layanan joki tugas kami — mulai dari pembuatan esai, CV, jurnal reflektif, hingga terjemahan. Jika tidak menemukan yang Anda cari, jangan ragu untuk menghubungi tim kami.
+              Temukan jawaban untuk pertanyaan umum tentang layanan joki koding
+              kami. Jika Anda tidak menemukan jawaban yang Anda cari, silakan
+              hubungi tim kami.
             </TextAnimate>
           </div>
 
@@ -82,7 +84,7 @@ export function FAQSection() {
               />
             </div>
 
-            {/* Category Filters */}
+            {/* Category Filters - scrollable on mobile */}
             <div className='overflow-x-auto pb-2 -mx-1 hide-scrollbar flex justify-center'>
               <div className='flex gap-2 px-1 min-w-max'>
                 <Button
@@ -96,7 +98,9 @@ export function FAQSection() {
                 {faqCategories.map((category) => (
                   <Button
                     key={category}
-                    variant={selectedCategory === category ? 'default' : 'outline'}
+                    variant={
+                      selectedCategory === category ? 'default' : 'outline'
+                    }
                     size='sm'
                     onClick={() => setSelectedCategory(category)}
                     className='rounded-full shadow-sm'
@@ -163,7 +167,9 @@ export function FAQSection() {
                   Tidak ada hasil yang ditemukan
                 </h3>
                 <p className='text-muted-foreground max-w-md mx-auto'>
-                  Tidak dapat menemukan pertanyaan yang sesuai dengan pencarian Anda. Coba kata kunci lain atau langsung hubungi kami untuk konsultasi gratis.
+                  Tidak dapat menemukan pertanyaan yang sesuai dengan pencarian
+                  Anda. Silakan coba dengan kata kunci lain atau hubungi kami
+                  untuk bantuan.
                 </p>
                 <Button
                   variant='outline'
@@ -184,7 +190,7 @@ export function FAQSection() {
               <p className='text-muted-foreground text-sm'>
                 Masih memiliki pertanyaan?
                 <Link href='/#join' className='text-primary hover:underline ml-1'>
-                  Hubungi kami sekarang
+                  Hubungi kami untuk bantuan lebih lanjut
                 </Link>
               </p>
             </div>
