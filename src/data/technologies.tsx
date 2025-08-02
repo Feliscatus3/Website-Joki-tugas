@@ -2,22 +2,17 @@ export const technologies = [
   {
     name: 'Curriculum Vitae (CV)',
     description: 'Pembuatan CV mahasiswa baru yang rapi dan menarik',
-    icon: 'https://www.svgrepo.com/show/502684/resume.svg',
+    icon: 'https://www.svgrepo.com/show/240259/resume.svg',
   },
   {
     name: 'Esai',
-    description: 'Penulisan esai',
+    description: 'Penulisan esai motivasi atau tugas akademik',
     icon: 'https://www.svgrepo.com/show/512586/writing-1.svg',
   },
   {
     name: 'Resume Materi',
     description: 'Meringkas materi PKKMB dengan format sistematis',
-    icon: 'https://www.svgrepo.com/show/286277/writing.svg',
-  },
-  {
-    name: 'Video Perkenalan',
-    description: 'Skrip dan narasi untuk video perkenalan diri',
-    icon: 'https://www.svgrepo.com/show/503074/video.svg',
+    icon: 'https://www.svgrepo.com/show/291484/content.svg',
   },
   {
     name: 'Laporan Kegiatan',
@@ -32,7 +27,7 @@ export const technologies = [
   {
     name: 'Terjemahan Tugas',
     description: 'Menerjemahkan tugas dari Indonesia ke Bahasa Inggris secara akurat',
-    icon: 'https://www.svgrepo.com/show/513351/translate.svg',
+    icon: 'https://www.svgrepo.com/show/455407/language-translation.svg',
   },
   {
     name: 'Word ke PDF, PDF ke Word, Foto ke PDF',
