@@ -44,13 +44,12 @@ export const Hero = () => {
             <span className='text-primary'>
               <CountUp
                 from={0}
-                to={5}
+                to={99}
                 suffix='K'
                 direction='up'
                 duration={1.5}
                 className='inline-block'
               />
-            </span>
             </span>{' '}
             Aja!
           </TextAnimate>
