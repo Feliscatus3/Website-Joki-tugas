@@ -31,7 +31,7 @@ export const Footer = () => {
         </div>
         <div className='my-8 flex flex-wrap justify-center gap-6 text-sm'>
           <Link
-            href={siteConfig.links.instagram || '#'}
+            href={siteConfig.links.instagram || 'https://www.instagram.com/jokigofast/'}
             target='_blank'
             rel='noopener noreferrer'
             aria-label={'instagram'}
