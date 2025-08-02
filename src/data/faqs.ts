@@ -1,76 +1,76 @@
-import type { FAQItem } from './faq'
+import type { FAQItem } from './faq';
 
 export const faqItems: FAQItem[] = [
   {
-    question: 'Apa itu jasa joki coding?',
+    question: 'Apa itu Joki Go Fast?',
     answer:
-      'Jasa joki coding adalah layanan profesional yang membantu Anda menyelesaikan proyek pemrograman, tugas kuliah berbasis kode, atau pengembangan aplikasi/website. Tim kami terdiri dari developer berpengalaman yang mengerjakan kode sesuai kebutuhan Anda dengan kualitas terbaik.',
+      'Joki Go Fast adalah layanan cepat bantu tugas kuliah, termasuk esai PKKMB, jurnal, CV maba, hingga tugas-tugas awal semester. Cocok untuk mahasiswa baru yang butuh bantuan instan dan rapi.',
     category: 'Umum',
   },
   {
-    question: 'Berapa biaya untuk menggunakan jasa CodeJoki?',
+    question: 'Layanan apa saja yang disediakan?',
     answer:
-      'Biaya layanan kami bervariasi mulai dari Rp 99.000 tergantung pada kompleksitas proyek, deadline, dan teknologi yang dibutuhkan. Kami menawarkan harga yang transparan dan terjangkau dengan kualitas hasil yang tidak mengecewakan.',
-    category: 'Biaya',
-  },
-  {
-    question: 'Apakah hasil pekerjaan bisa direvisi?',
-    answer:
-      'Tentu! Kami menyediakan maksimal 7x revisi minor (contoh: mengubah warna, tambahan fungsionalitas sederhana, dll.) untuk memastikan kepuasan Anda dengan hasil pekerjaan. Kepuasan Anda adalah prioritas utama kami.',
+      'Kami melayani pembuatan CV, esai, joki debat PKKMB, jurnal, konversi file PDF/Word, koreksi EYD, hingga penulisan ilmiah ringan. Tinggal kirim brief, kami kerjakan!',
     category: 'Layanan',
   },
   {
-    question: 'Berapa lama waktu pengerjaan proyek?',
+    question: 'Berapa biaya jasa Joki Go Fast?',
     answer:
-      'Durasi pengerjaan bergantung pada kompleksitas proyek. Proyek sederhana bisa selesai dalam 1-3 hari, sedangkan proyek yang lebih kompleks mungkin membutuhkan waktu 1-2 minggu atau lebih. Kami selalu berusaha memenuhi deadline yang disepakati.',
+      'Mulai dari Rp 5.000 per tugas. Biaya tergantung jenis tugas, panjang tulisan, dan deadline. Tugas mendesak atau kompleks tentu beda harga. Kami akan beri estimasi sebelum pengerjaan.',
+    category: 'Biaya',
+  },
+  {
+    question: 'Seberapa cepat pengerjaan tugas saya?',
+    answer:
+      'Rata-rata 1–12 jam untuk tugas ringan. Bisa lebih cepat jika Anda memilih layanan ekspres. Tugas esai pendek bisa selesai dalam waktu 1 jam setelah DP.',
     category: 'Proses',
   },
   {
-    question: 'Bahasa pemrograman dan teknologi apa saja yang dikuasai?',
+    question: 'Apakah tugas saya akan dikerjakan dengan baik?',
     answer:
-      'Tim kami menguasai berbagai bahasa pemrograman modern seperti JavaScript, TypeScript, Python, PHP, Java, C++, dan lainnya. Kami juga berpengalaman dengan framework populer seperti React, Next.js, Vue.js, Laravel, Express, Flutter, dan teknologi database seperti MySQL, PostgreSQL, MongoDB.',
-    category: 'Teknis',
+      'Kami mengutamakan kualitas, orisinalitas, dan gaya bahasa yang sesuai mahasiswa. Anda bisa request gaya formal santai, khas jurusan, atau sesuai template kampus.',
+    category: 'Layanan',
   },
   {
-    question: 'Bagaimana proses pemesanan jasa di CodeJoki?',
+    question: 'Bagaimana cara order jasa joki?',
     answer:
-      'Proses pemesanan sangat mudah: (1) Hubungi kami melalui WhatsApp, Instagram, atau Bot Assistant, (2) Diskusikan detail proyek dan dapatkan penawaran harga, (3) Lakukan pembayaran DP untuk memulai pengerjaan, (4) Kami akan mengerjakan proyek dan memberikan update berkala, (5) Setelah selesai dan disetujui, lakukan pelunasan dan terima hasil akhir.',
+      'Cukup kirim tugas via WhatsApp, sebutkan deadline dan detailnya. Kami akan kasih estimasi harga. Jika setuju, Anda bisa bayar DP dan kami langsung kerjakan.',
     category: 'Proses',
   },
   {
-    question: 'Apakah CodeJoki menjamin kerahasiaan proyek saya?',
+    question: 'Apakah revisi tersedia jika hasil belum sesuai?',
     answer:
-      'Ya, kami menjamin 100% kerahasiaan proyek Anda. Semua informasi proyek dan data pribadi klien kami lindungi dengan ketat dan tidak akan dibagikan kepada pihak ketiga tanpa izin.',
+      'Bisa. Revisi gratis maksimal 3x untuk tugas ringan (contoh: esai, CV, jurnal). Kirim feedback Anda, kami akan sesuaikan secepat mungkin.',
+    category: 'Layanan',
+  },
+  {
+    question: 'Apakah hasil tugas bersifat rahasia?',
+    answer:
+      'Tentu. Semua informasi tugas, nama Anda, dan data lainnya kami jaga kerahasiaannya. Kami tidak menyimpan atau menyebarkan file Anda ke pihak mana pun.',
     category: 'Keamanan',
   },
   {
-    question: 'Apa yang membedakan CodeJoki dengan jasa joki coding lainnya?',
+    question: 'Bisakah saya minta file Word atau PDF?',
     answer:
-      'CodeJoki dijalankan oleh tim developer profesional dengan pengalaman industri yang luas. Kami menawarkan kualitas kode yang superior dengan dokumentasi lengkap, layanan revisi tanpa batas, dukungan after-service, harga transparan, dan garansi kepuasan 100%.',
+      'Bisa! Anda bebas memilih output akhir: Word, PDF, atau keduanya. Kami juga bisa bantu layout biar terlihat lebih rapi dan profesional.',
+    category: 'Teknis',
+  },
+  {
+    question: 'Apa yang membedakan Joki Go Fast dari joki lainnya?',
+    answer:
+      'Respons super cepat <10 menit, pengerjaan dalam hitungan jam, hasil rapi dan bisa custom sesuai format kampus. Kami juga berpengalaman menangani ratusan maba.',
     category: 'Umum',
   },
   {
-    question: 'Apakah saya akan mendapatkan hak penuh atas kode yang dibuat?',
+    question: 'Bagaimana sistem pembayaran?',
     answer:
-      'Ya, setelah proyek selesai dan pembayaran lunas, Anda mendapatkan hak penuh atas kode yang kami buat. Anda bebas menggunakannya untuk keperluan pribadi maupun komersial sesuai kesepakatan.',
-    category: 'Hukum',
-  },
-  {
-    question: 'Bagaimana sistem pembayaran untuk proyek?',
-    answer:
-      'Kami menggunakan sistem DP 50% di awal dan pelunasan setelah proyek selesai. DP digunakan untuk memulai pengerjaan proyek dan memastikan komitmen dari kedua belah pihak.',
+      'DP 50% di awal, pelunasan saat tugas selesai. Pembayaran via e-wallet, transfer bank. Simpel dan aman.',
     category: 'Biaya',
   },
   {
-    question: 'Bagaimana dengan support setelah proyek selesai?',
+    question: 'Apakah tersedia refund?',
     answer:
-      'Kami memberikan garansi bug fix selama 14 hari setelah proyek selesai. Jika ditemukan bug atau masalah teknis yang terkait dengan kode yang kami buat, kami akan memperbaikinya tanpa biaya tambahan.',
-    category: 'Layanan',
-  },
-  {
-    question: 'Apakah ada kebijakan refund?',
-    answer:
-      'Proyek yang sudah disepakati (DP sudah ditransfer) tidak dapat di-refund. Oleh karena itu, kami menyarankan untuk mendiskusikan semua detail dan kebutuhan proyek secara jelas sebelum memulai kerjasama.',
+      'Maaf, DP tidak bisa direfund karena langsung digunakan untuk mulai pengerjaan. Tapi Anda tetap bisa revisi jika ada kekurangan.',
     category: 'Biaya',
   },
 ];
