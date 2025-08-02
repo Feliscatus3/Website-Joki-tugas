@@ -11,9 +11,9 @@ import { Shade } from '@/components/ui/shade';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'Jasa Pemrograman & Bantuan Coding Profesional',
+  title: 'Jasa Tugas & Bantuan Tugas Profesional',
   description:
-    'Layanan joki coding profesional dengan harga terjangkau mulai dari 99K. Solusi cepat untuk tugas kuliah, proyek website, dan aplikasi berkualitas tinggi.',
+    'Jasa pengerjaan tugas pemrograman yang berkualitas tinggi dengan harga terjangkau. Solusi cepat dan hasil terbaik untuk semua kebutuhan tugas Anda.',
   path: '/',
 });
 

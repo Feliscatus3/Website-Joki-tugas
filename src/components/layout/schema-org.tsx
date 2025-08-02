@@ -6,7 +6,7 @@ export default function SchemaOrg() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'CodeJoki',
+    name: 'JokiGoFast',
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo.png`,
     sameAs: [
@@ -29,12 +29,12 @@ export default function SchemaOrg() {
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    serviceType: 'Jasa Pemrograman',
+    serviceType: 'Jasa Tugas',
     provider: {
       '@type': 'Organization',
-      name: 'CodeJoki',
+      name: 'JokiGoFast',
     },
-    description: 'Jasa pembuatan proyek dan tugas pemrograman berkualitas tinggi',
+    description: 'Layanan cepat dan profesional untuk membantu tugas PKKMB, OSPEK, dan kuliah. Cocok untuk mahasiswa baru yang ingin serba cepat dan tanpa ribet.',
     areaServed: {
       '@type': 'Country',
       name: 'Indonesia',
