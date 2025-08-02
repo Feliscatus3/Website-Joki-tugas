@@ -106,7 +106,7 @@ export function OrderForm() {
             animation='fadeIn'
             delay={0.2}
           >
-            Mulai tugas Anda dengan mengisi formulir pemesanan di bawah ini
+            Mulai proyek Anda dengan mengisi formulir pemesanan di bawah ini
           </TextAnimate>
         </div>
         <div className='max-w-full sm:max-w-3xl mx-auto relative min-h-[400px] bg-white dark:bg-black/50 rounded-xl shadow-lg overflow-hidden border border-gray-200 dark:border-gray-800'>

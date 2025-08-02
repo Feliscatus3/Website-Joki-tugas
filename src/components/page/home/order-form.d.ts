@@ -1,11 +1,9 @@
 export type ProjectType =
-  | 'cv'
-  | 'motivational-essay'
-  | 'reflective-journal'
-  | 'translation'
-  | 'file-conversion'
-  | 'proofreading'
-  | 'formal-writing';
+  | 'website'
+  | 'mobile-app'
+  | 'desktop-app'
+  | 'data-science'
+  | '';
 
 export type DeadlineType = 'specific' | 'flexible';
 
