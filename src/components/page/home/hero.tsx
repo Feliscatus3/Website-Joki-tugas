@@ -50,6 +50,7 @@ export const Hero = () => {
                 duration={1.5}
                 className='inline-block'
               />
+            </span>
             </span>{' '}
             Aja!
           </TextAnimate>
