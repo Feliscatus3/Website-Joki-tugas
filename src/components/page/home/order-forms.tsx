@@ -127,7 +127,7 @@ export function OrderForm() {
                 <span
                   className={step >= 0 ? 'text-foreground' : 'text-gray-500'}
                 >
-                  Jenis Tugas
+                  Jenis
                 </span>
               </div>
               <div className='h-0.5 w-12 bg-gray-300 dark:bg-gray-700'></div>
