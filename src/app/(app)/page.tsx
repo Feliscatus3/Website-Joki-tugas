@@ -4,7 +4,6 @@ import {
   About,
   MarqueeMember,
   CallToActionJoin,
-  ReadyProjects,
   OrderForm,
 } from '@/components/page/home';
 import { Shade } from '@/components/ui/shade';
@@ -29,8 +28,6 @@ export default function Home() {
       <MarqueeMember />
       <Shade className='mt-10 border-y' />
       <About />
-      <Shade className='border-y' />
-      <ReadyProjects />
       <Shade className='border-y' />
       <OrderForm />
       <Shade className='border-y' />
