@@ -7,6 +7,7 @@ export type ProjectType =
   | 'proofreading'
   | 'formal-writing';
 
+
 export type DeadlineType = 'specific' | 'flexible';
 
 export interface FormData {
