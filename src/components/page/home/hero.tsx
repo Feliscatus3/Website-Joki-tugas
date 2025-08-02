@@ -44,7 +44,7 @@ export const Hero = () => {
             <span className='text-primary'>
               <CountUp
                 from={0}
-                to={99}
+                to={5}
                 suffix='K'
                 direction='up'
                 duration={1.5}
