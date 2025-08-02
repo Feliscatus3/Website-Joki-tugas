@@ -38,7 +38,7 @@ export const Hero = () => {
             animation='blurInDown'
             duration={0.3}
           >
-            Kami Bantu Selesaikan Tugas <br className='md:hidden' /> Kuliah
+            Kami Bantu Selesaikan Proyek <br className='md:hidden' /> Kodingan
             Kamu, <br />
             Mulai dari{' '}
             <span className='text-primary'>
@@ -63,8 +63,9 @@ export const Hero = () => {
             delay={0.3}
             duration={0.3}
           >
-            Joki Go Fast siap bantu kamu selesaikan tugas-tugas orientasi dan kuliah dengan cepat, rapi, dan bebas drama.
-Fokus nikmati masa-masa awal kuliahmu — biar kami yang urus sisanya!
+            Lupakan coding yang membuat pusing! Dapatkan proyek IT berkualitas
+            tinggi tanpa stress deadline. Tim ahli kami siap memberikan solusi
+            kilat dengan hasil mengesankan.
           </TextAnimate>
           <div className='mt-8 sm:mt-12 flex items-center justify-center gap-4'>
             <BlurFade>
@@ -91,7 +92,7 @@ Fokus nikmati masa-masa awal kuliahmu — biar kami yang urus sisanya!
                       <span className='inline-flex items-center'>
                         <span>Selesaikan</span>
                         <span className='line-through mx-1 opacity-90'>
-                          tugas
+                          coding
                         </span>
                         <span>sekarang!</span>
                         <svg
