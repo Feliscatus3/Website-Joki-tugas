@@ -5,14 +5,14 @@ export const technologies = [
     icon: 'https://www.svgrepo.com/show/240259/resume.svg',
   },
   {
-    name: 'Esai',
+    name: 'Esai Motivasi',
     description: 'Penulisan esai motivasi atau tugas akademik',
-    icon: 'https://www.svgrepo.com/show/512586/writing-1.svg',
+    icon: 'https://www.svgrepo.com/show/291484/content.svg',
   },
   {
     name: 'Resume Materi',
     description: 'Meringkas materi PKKMB dengan format sistematis',
-    icon: 'https://www.svgrepo.com/show/291484/content.svg',
+    icon: 'https://www.svgrepo.com/show/423304/papers.svg',
   },
   {
     name: 'Laporan Kegiatan',
@@ -22,26 +22,26 @@ export const technologies = [
   {
     name: 'Jurnal',
     description: 'Penulisan jurnal refleksi pengalaman selama orientasi',
-    icon: 'https://www.svgrepo.com/show/469866/journal.svg',
+    icon: 'https://www.svgrepo.com/show/344935/journal.svg',
   },
   {
     name: 'Terjemahan Tugas',
-    description: 'Menerjemahkan tugas dari Indonesia ke Bahasa Inggris secara akurat',
+    description: 'Menerjemahkan tugas kuliah dari/ke Bahasa Inggris secara akurat',
     icon: 'https://www.svgrepo.com/show/455407/language-translation.svg',
   },
   {
-    name: 'Word ke PDF, PDF ke Word, Foto ke PDF',
-    description: 'Mengubah tugas format untuk pengumpulan',
+    name: 'Konversi File (Word / PDF / Foto)',
+    description: 'Mengubah tugas antar format: Word ke PDF, PDF ke Word, atau Foto ke PDF',
     icon: 'https://www.svgrepo.com/show/452137/word-to-pdf.svg',
   },
   {
     name: 'Koreksi EYD & Tata Bahasa',
-    description: 'Pemeriksaan ejaan, tanda baca, dan tata bahasa tugas',
+    description: 'Pemeriksaan ejaan, tanda baca, dan struktur kalimat akademik',
     icon: 'https://www.svgrepo.com/show/421839/spellcheck.svg',
   },
   {
     name: 'Penulisan Formal',
-    description: 'Membantu menyusun kalimat akademik & bahasa formal',
-    icon: 'https://www.svgrepo.com/show/422053/article.svg',
+    description: 'Membantu menyusun kalimat formal dan gaya akademik standar',
+    icon: 'https://www.svgrepo.com/show/10804947/academic-writing.svg',
   },
 ];
