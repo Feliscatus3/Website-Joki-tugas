@@ -1,61 +1,55 @@
-import React from 'react';
 import {
-  Bot,
-  MessageSquare,
-  LayoutDashboard,
-  Settings,
-  Database,
-  ShoppingCart,
+  FileText,
+  BookOpen,
+  NotebookPen,
+  Languages,
+  FileDown,
+  SpellCheck,
+  FileType2,
 } from 'lucide-react';
-import type { ProjectItem } from './project-item'
+import type { ProjectItem } from './project-item';
 
 export const projectItems: ProjectItem[] = [
   {
-    title: 'WhatsApp Bot untuk CS',
+    title: 'CV Mahasiswa Baru',
     description:
-      'Bot WhatsApp siap pakai untuk customer service dengan respons otomatis dan kemampuan integrasi dengan AI.',
-    icon: <MessageSquare />,
+      'CV yang rapi, profesional, dan menarik untuk kebutuhan pengenalan diri saat PKKMB.',
+    icon: <FileText className='text-primary w-8 h-8' />,
   },
   {
-    title: 'Chatbot AI Multifungsi',
+    title: 'Esai',
     description:
-      'Asisten AI pintar untuk website yang dapat menjawab pertanyaan, memberikan rekomendasi, dan meningkatkan konversi.',
-    icon: <Bot />,
+      'Esai dengan bahasa akademik, sesuai tema, dan mencerminkan semangat mengikuti kegiatan.',
+    icon: <BookOpen className='text-primary w-8 h-8' />,
   },
   {
-    title: 'Content Management System',
+    title: 'Jurnal',
     description:
-      'CMS modern dengan UI intuitif untuk mengelola konten web, blog, produk, dan pengguna dengan mudah.',
-    icon: <LayoutDashboard />,
+      'Tulisan refleksi berdasarkan kegiatan sehari-hari selama masa orientasi kampus.',
+    icon: <NotebookPen className='text-primary w-8 h-8' />,
   },
   {
-    title: 'E-commerce Platform',
+    title: 'Terjemahan Bahasa Inggris',
     description:
-      'Solusi e-commerce lengkap dengan pembayaran online, manajemen inventori, dan analitik penjualan.',
-    icon: <ShoppingCart />,
+      'Menerjemahkan tugas kuliah atau materi PKKMB dari/ke Bahasa Inggris secara akurat dan alami.',
+    icon: <Languages className='text-primary w-8 h-8' />,
   },
   {
-    title: 'API Integration System',
+    title: 'Konversi File Tugas',
     description:
-      'Framework integrasi API yang memudahkan koneksi dengan berbagai layanan pihak ketiga dan microservices.',
-    icon: <Database />,
+      'Mengubah format file ke PDF, Word, atau gambar sesuai permintaan pengumpulan.',
+    icon: <FileDown className='text-primary w-8 h-8' />,
   },
   {
-    title: 'Admin Dashboard',
+    title: 'Koreksi EYD & Tata Bahasa',
     description:
-      'Dashboard admin yang komprehensif dengan berbagai komponen UI, grafik, dan fitur pengelolaan data.',
-    icon: <LayoutDashboard />,
+      'Pemeriksaan dan perbaikan ejaan, tanda baca, serta gaya bahasa formal yang tepat.',
+    icon: <SpellCheck className='text-primary w-8 h-8' />,
   },
   {
-    title: 'Mobile App Template',
+    title: 'Penulisan Bahasa Formal',
     description:
-      'Template aplikasi mobile yang dapat dikustomisasi untuk Android dan iOS dengan fitur modern dan UI yang menarik.',
-    icon: <Settings />,
-  },
-  {
-    title: 'Backend Starter Kit',
-    description:
-      'Kerangka backend lengkap dengan autentikasi, database, dan API endpoint yang telah dikonfigurasi.',
-    icon: <Database />,
+      'Tugas ditulis dengan bahasa formal dan akademik, cocok untuk tugas pengantar atau laporan.',
+    icon: <FileType2 className='text-primary w-8 h-8' />,
   },
 ];
