@@ -78,7 +78,7 @@ export function ReadyProjects() {
             className='text-3xl sm:text-4xl font-bold mb-4'
             animation='blurInDown'
           >
-            Proyek Siap Pakai
+            Tugas Siap Pakai
           </TextAnimate>
           <TextAnimate
             as={'p'}
@@ -87,8 +87,8 @@ export function ReadyProjects() {
             animation='fadeIn'
             delay={0.2}
           >
-            Template dan boilerplate berkualitas tinggi yang dapat segera
-            digunakan dan disesuaikan dengan kebutuhan spesifik Anda.
+            Template dan dokumen siap pakai yang dapat langsung digunakan dan disesuaikan
+            sesuai kebutuhan mahasiswa dan organisasi kampus.
           </TextAnimate>
         </div>
 
@@ -114,7 +114,7 @@ export function ReadyProjects() {
             className='group border-primary/20 hover:border-primary/40'
           >
             <Link href='/projects'>
-              <span>Lihat semua proyek siap pakai</span>
+              <span>Lihat semua tugas siap pakai</span>
               <ArrowRight className='ml-2 h-4 w-4 transition-transform group-hover:translate-x-1' />
             </Link>
           </Button>

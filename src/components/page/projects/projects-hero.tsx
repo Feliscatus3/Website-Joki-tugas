@@ -26,12 +26,11 @@ export function ProjectsHero() {
         className='space-y-6'
       >
         <h1 className='text-3xl md:text-5xl lg:text-7xl text-white font-bold text-center leading-tight'>
-          Proyek Siap Pakai
+          Tugas Siap Pakai
         </h1>
         <p className='text-base md:text-xl mt-4 text-white/80 font-normal text-center max-w-2xl mx-auto'>
-          Koleksi template dan boilerplate premium yang dapat disesuaikan dengan
-          kebutuhan bisnis Anda. Hemat waktu dan biaya dengan solusi yang telah
-          teruji.
+            Template dan dokumen siap pakai yang dapat langsung digunakan dan disesuaikan
+            sesuai kebutuhan mahasiswa dan organisasi kampus.
         </p>
 
         <div className='flex flex-wrap justify-center gap-4 pt-6'>
@@ -45,7 +44,7 @@ export function ProjectsHero() {
                 ?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            Lihat Koleksi Kami
+            Lihat Tugas Kami
             <ArrowDown className='ml-2 h-4 w-4' />
           </Button>
           <Button
