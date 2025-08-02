@@ -14,7 +14,7 @@ export function MarqueeMember() {
   return (
     <div className='relative flex w-full flex-col items-center justify-center overflow-x-hidden py-6'>
       <h2 className='mb-4 text-xl font-medium text-center opacity-85'>
-        Kami Menguasai Berbagai Teknologi
+        Kami Menguasai Berbagai Tugas
       </h2>
 
       <Marquee pauseOnHover className='[--duration:40s] isolate'>
