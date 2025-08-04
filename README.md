@@ -42,9 +42,7 @@ Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
 ## Kontak & Pemesanan
 
-- WhatsApp: [Klik di sini](https://wa.me/+6285157900849)
-- Instagram: [@side\_\_id](https://www.instagram.com/side__id/)
-- GitHub: [sideeID](https://github.com/sideeID)
+- WhatsApp: [Klik di sini](https://wa.me/+628562881011101016157900849)
 
 ## Lisensi
 

@@ -61,7 +61,7 @@ export function CallToActionJoin() {
           >
             <Link
               target='_blank'
-              href={`https://wa.me/+6281949601347?text=${encodedBotMessage}`}
+              href={`https://wa.me/+62881011101016?text=${encodedBotMessage}`}
             >
               <Bot className='mr-2 h-5 w-5' />
               <span>Bot Assistant</span>
