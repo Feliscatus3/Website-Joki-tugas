@@ -5,9 +5,9 @@ import { Shade } from '@/components/ui/shade';
 import FAQSchema from '@/components/schema/faq-schema';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'FAQ - Pertanyaan & Jawaban Seputar Jasa Joki Coding',
+  title: 'FAQ - Pertanyaan & Jawaban Seputar Jasa Joki tugas',
   description:
-    'Temukan jawaban untuk pertanyaan umum tentang layanan jasa joki coding kami, proses pengerjaan, harga, teknologi, dan keamanan data Anda.',
+    'Temukan jawaban untuk pertanyaan umum tentang layanan jasa joki tugas kami, proses pengerjaan, harga, teknologi, dan keamanan data Anda.',
   path: '/faq',
 });
 

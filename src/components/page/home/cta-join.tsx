@@ -6,7 +6,7 @@ import { TextAnimate, BlurFade } from '@/components/animation';
 
 export function CallToActionJoin() {
   const whatsappMessage =
-    'Halo, saya tertarik dengan layanan joki coding Anda. Bisakah saya mendapatkan informasi lebih lanjut?';
+    'Halo, saya tertarik dengan layanan joki tugas Anda. Bisakah saya mendapatkan informasi lebih lanjut?';
   const botMessage = 'Dim, layanan apa saja yang tersedia?';
   const encodedMessage = encodeURIComponent(whatsappMessage);
   const encodedBotMessage = encodeURIComponent(botMessage);
@@ -19,7 +19,7 @@ export function CallToActionJoin() {
           as={'h2'}
           className='text-balance text-2xl font-semibold lg:text-3xl'
         >
-          Dapatkan Hasil Terbaik untuk Proyek Coding Anda
+          Dapatkan Hasil Terbaik untuk Proyek Tugas Anda
         </TextAnimate>
         <TextAnimate once as={'p'} className='mt-4 max-w-lg mx-auto'>
           Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran
@@ -36,7 +36,7 @@ export function CallToActionJoin() {
           >
             <Link
               target='_blank'
-              href={`${siteConfig.links.whatsapp}?text=${encodedMessage}`}
+              href={`https://wa.me/+621385222903?text=${encodedBotMessage}`}
             >
               <MessageSquare className='mr-2 h-5 w-5' />
               <span>Chat WhatsApp</span>
@@ -51,20 +51,6 @@ export function CallToActionJoin() {
             <Link target='_blank' href={siteConfig.links.instagram}>
               <Instagram className='mr-2 h-5 w-5' />
               <span>DM Instagram</span>
-            </Link>
-          </Button>
-          <Button
-            className='bg-gradient-to-r from-teal-600 to-cyan-500 hover:from-teal-500 hover:to-cyan-400 shadow-lg'
-            asChild
-            variant={'default'}
-            size='lg'
-          >
-            <Link
-              target='_blank'
-              href={`https://wa.me/+62881011101016?text=${encodedBotMessage}`}
-            >
-              <Bot className='mr-2 h-5 w-5' />
-              <span>Bot Assistant</span>
             </Link>
           </Button>
         </BlurFade>

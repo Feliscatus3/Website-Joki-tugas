@@ -49,7 +49,7 @@ export const siteConfig = {
     discord: '#',
     instagram: 'https://www.instagram.com/jokigofast/',
     github: '#',
-    whatsapp: 'https://wa.me/+62881011101016',
+    whatsapp: 'https://wa.me/+621385222903',
     telegram: '#',
     shopee: '#',
   },

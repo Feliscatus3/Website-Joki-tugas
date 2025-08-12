@@ -44,7 +44,7 @@ export const Hero = () => {
             delay={0.3}
             duration={0.3}
           >
-            Lupakan coding yang membuat pusing! Dapatkan proyek IT berkualitas
+            Lupakan tugas yang membuat pusing! Dapatkan tugas berkualitas
             tinggi tanpa stress deadline. Tim ahli kami siap memberikan solusi
             kilat dengan hasil mengesankan yang dijamin membuat dosen & klien
             Anda terpukau.
@@ -74,7 +74,7 @@ export const Hero = () => {
                       <span className='inline-flex items-center'>
                         <span>Selesaikan</span>
                         <span className='line-through mx-1 opacity-90'>
-                          coding
+                          tugas
                         </span>
                         <span>sekarang!</span>
                         <svg

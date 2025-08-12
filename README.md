@@ -1,6 +1,6 @@
 # CodeJoki
 
-Website resmi untuk berjualan jasa pemrograman dan pengerjaan tugas coding profesional. Dikelola oleh programmer freelancer Indonesia, CodeJoki menawarkan solusi cepat, berkualitas, dan terpercaya untuk berbagai kebutuhan proyek IT, tugas kuliah, pembuatan website, dan konsultasi pemrograman.
+Website resmi untuk berjualan jasa pemrograman dan pengerjaan tugas tugas profesional. Dikelola oleh programmer freelancer Indonesia, CodeJoki menawarkan solusi cepat, berkualitas, dan terpercaya untuk berbagai kebutuhan proyek IT, tugas kuliah, pembuatan website, dan konsultasi pemrograman.
 
 ## Fitur
 
@@ -50,4 +50,4 @@ Proyek ini dikelola secara pribadi dan tidak untuk penggunaan ulang tanpa izin.
 
 ---
 
-Website jasa pemrograman & coding profesional — Solusi cepat, harga terjangkau, hasil terbaik!
+Website jasa pemrograman & tugas profesional — Solusi cepat, harga terjangkau, hasil terbaik!
