@@ -114,21 +114,36 @@ export function OrderForm() {
       formData.projectType.charAt(0).toUpperCase() +
       formData.projectType.slice(1).replace('-', ' ');
     
-    // Format file information
-    const fileInfo =
-      formData.files.length > 0
-        ? `\n📎 File yang dilampirkan (${formData.files.length} file):${formData.files
-            .map((f) => `\n- ${f.name} (${(f.size / 1024 / 1024).toFixed(2)} MB)`)
-            .join('')}\n\nCatatan: File akan dikirimkan setelah konfirmasi admin.`
-        : '\nTidak ada file yang dilampirkan.';
+    // Format file information with instructions for manual sending
+    let fileSection = '';
+    if (formData.files.length > 0) {
+      const fileList = formData.files
+        .map((f, index) => `${index + 1}. ${f.name} (${(f.size / 1024 / 1024).toFixed(2)} MB)`)
+        .join('\n');
+      fileSection = `\n\n*📎 FILE YANG AKAN DIKIRIM:*\n${fileList}\n\n⚠️ *CARA KIRIM FILE:*\nSetelah chat WhatsApp terbuka, silakan kirim file-file di atas dengan cara:\n1. Klik tombol attachment (📎) di WhatsApp\n2. Pilih "Dokumen" atau "File"\n3. Pilih file yang sudah Anda siapkan tadi\n4. Kirim file tersebut`;
+    } else {
+      fileSection = '';
+    }
     
-    const message = `*PESANAN BARU*\n\nJenis Proyek: ${projectTypeLabel}\n\nDeskripsi:\n${formData.description}${fileInfo}\n\nDeadline: ${deadlineInfo}\n\nMohon diproses, terima kasih.`;
+    const message = `*PESANAN BARU - JOKIGOFAST*
+
+*Jenis Proyek:* ${projectTypeLabel}
+
+*Deskripsi:*
+${formData.description}${fileSection}
+
+*Deadline:* ${deadlineInfo}
+
+Mohon diproses, terima kasih.`;
+    
     const encodedMessage = encodeURIComponent(message);
     window.open(
       `https://wa.me/${adminWhatsApp}?text=${encodedMessage}`,
       '_blank',
     );
   };
+
+
 
   const isValidDescription = formData.description.trim().length >= 10;
   const isValidDeadline =

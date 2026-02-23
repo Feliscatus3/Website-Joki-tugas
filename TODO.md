@@ -11,7 +11,7 @@
 
 ### 2. Update Order Form Component ✅
 - [x] `src/components/page/home/order-forms.tsx` - File upload state
-- [x] Fungsi sendOrderToWhatsApp dengan info file
+- [x] Fungsi sendOrderToWhatsApp dengan info file yang JELAS
 
 ### 3. Update Step Description ✅
 - [x] `src/components/page/home/order-form/step-description.tsx` - UI upload file
@@ -22,8 +22,30 @@
 - [x] `src/components/page/home/cta-join.tsx` - Hapus unused imports
 - [x] `src/data/project-items.tsx` - Hapus unused import
 
-### 5. Update WhatsApp Number ✅
-- [x] `src/config/site.ts` - Nomor WhatsApp: +6281385222903
+### 5. Update Kontak ✅
+- [x] `src/config/site.ts` - WhatsApp: +6281385222903
+- [x] `src/config/site.ts` - Instagram: https://www.instagram.com/jokigofast/
+
+### 6. Perbaiki Pesan WhatsApp ✅
+Format pesan sekarang:
+```
+*PESANAN BARU - JOKIGOFAST*
+
+*Jenis Proyek:* [tipe]
+
+*Deskripsi:*
+[deskripsi]
+
+*📎 FILE LAMPIRAN:*
+1. [nama file] ([size] MB)
+2. [nama file] ([size] MB)
+
+_Note: File asli akan dikirim setelah admin merespons._
+
+*Deadline:* [deadline]
+
+Mohon diproses, terima kasih.
+```
 
 ## Tipe Proyek Baru (Semua File Konsisten):
 1. **Jurnal** - Penulisan jurnal refleksi
@@ -35,12 +57,12 @@
 7. **CV** - Curriculum Vitae
 8. **Lainnya** - Layanan custom
 
-## File yang Diubah (Total 8 file):
+## File yang Diubah (8 file):
 1. `src/components/page/home/order-form.d.ts`
 2. `src/data/project-types.tsx`
 3. `src/data/project-items.tsx`
 4. `src/data/technologies.tsx`
-5. `src/config/site.ts` (WhatsApp number)
+5. `src/config/site.ts`
 6. `src/components/page/home/cta-join.tsx`
 7. `src/components/page/home/order-forms.tsx`
 8. `src/components/page/home/order-form/step-description.tsx`
