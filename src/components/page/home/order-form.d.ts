@@ -1,12 +1,14 @@
 export type ProjectType =
+  | 'jurnal'
+  | 'artikel'
+  | 'parafrase'
+  | 'essay'
+  | 'resume'
+  | 'translate'
   | 'cv'
-  | 'motivational-essay'
-  | 'reflective-journal'
-  | 'translation'
-  | 'file-conversion'
-  | 'proofreading'
-  | 'formal-writing'
+  | 'lainnya'
   | ''; // untuk nilai default / belum dipilih
+
 
 export type DeadlineType = 'specific' | 'flexible';
 
