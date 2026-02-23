@@ -3,6 +3,7 @@
 ## Error yang Ditemukan:
 1. [x] Type mismatch antara `order-form.d.ts` dan `project-types.tsx`
 2. [x] Missing file upload functionality di order form
+3. [x] ESLint unused vars di `project-items.tsx` (MoreHorizontal)
 
 ## Rencana Perbaikan:
 
@@ -23,6 +24,7 @@
 
 ### 4. Fix ESLint Errors ✅
 - [x] Fix `src/components/page/home/cta-join.tsx` - Hapus unused imports (Bot) dan variables (encodedMessage)
+- [x] Fix `src/data/project-items.tsx` - Hapus unused import (MoreHorizontal)
 
 ### 5. Testing
 - [ ] Verifikasi tidak ada error TypeScript

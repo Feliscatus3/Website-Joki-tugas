@@ -6,8 +6,8 @@ import {
   FileDown,
   SpellCheck,
   FileSignature,
-  MoreHorizontal,
 } from 'lucide-react';
+
 import type { ProjectItem } from './project-item';
 
 export const projectItems: ProjectItem[] = [
