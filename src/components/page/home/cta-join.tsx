@@ -1,14 +1,11 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { MessageSquare, Instagram, Bot } from 'lucide-react';
+import { MessageSquare, Instagram } from 'lucide-react';
 import { siteConfig } from '@/config/site';
 import { TextAnimate, BlurFade } from '@/components/animation';
 
 export function CallToActionJoin() {
-  const whatsappMessage =
-    'Halo, saya tertarik dengan layanan joki tugas Anda. Bisakah saya mendapatkan informasi lebih lanjut?';
   const botMessage = 'Dim, layanan apa saja yang tersedia?';
-  const encodedMessage = encodeURIComponent(whatsappMessage);
   const encodedBotMessage = encodeURIComponent(botMessage);
 
   return (
